@@ -60,8 +60,3 @@ if __name__ == "__main__":
 
     print(int(abs(difference_sec)))
     
-from datetime import datetime
-
-date_string = "2024-02-07 15:30:00"
-date_object = datetime.strptime(date_string, "%Y-%m-%d %H:%M:%S")
-print(date_object)
